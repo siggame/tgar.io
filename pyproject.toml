@@ -10,6 +10,7 @@ packages = [
 python = "^3.8"
 Flask = "^2.0.2"
 websockets = "^10.0"
+docopt = "^0.6.2"
 
 [tool.poetry.dev-dependencies]
 

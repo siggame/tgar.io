@@ -18,7 +18,9 @@ async def _main():
 
 def main():
 
+  import importlib
 
+  importlib.import_module("testfile")
   loop = asyncio.get_event_loop()
   loop.create_task(_main())
   loop.run_forever()
